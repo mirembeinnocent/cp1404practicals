@@ -1,6 +1,6 @@
-def word_occurrences(text):
+def word_occurrences(text_value):
 
-    words = text.split()
+    words = text_value.split()
     word_counts = {}
     for word in words:
         word_counts[word] = word_counts.get(word, 0) + 1
